@@ -1,0 +1,29 @@
+{
+  "name": "koa-tcomb-validation",
+  "version": "1.0.0",
+  "description": "tcombjs as koa middleware",
+  "main": "index.js",
+  "author": "Yu Jin",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "mocha": "^5.0.5",
+    "standardjs": "^1.0.0-alpha"
+  },
+  "scripts": {
+    "test": "mocha --exit test.js"
+  },
+  "dependencies": {
+    "tcomb-validation": "^3.4.1"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  }
+}
