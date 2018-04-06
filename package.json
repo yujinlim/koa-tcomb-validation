@@ -5,7 +5,19 @@
   "main": "index.js",
   "author": "Yu Jin",
   "license": "MIT",
+  "homepage": "https://github.com/yujinlim/koa-tcomb-validation",
   "private": false,
+  "bugs": {
+    "url" : "https://github.com/yujinlim/koa-tcomb-validation/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yujinlim/koa-tcomb-validation.git"
+  },
+  "author": {
+    "name": "Yu Jin",
+    "email": "adamlyj89@gmail.com"
+  },
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-http": "^4.0.0",
@@ -25,5 +37,13 @@
     "env": [
       "mocha"
     ]
-  }
+  },
+  "keywords": [
+    "koa",
+    "koa validation",
+    "koa middleware",
+    "middleware",
+    "tcomb",
+    "tcomb middleware"
+  ]
 }
