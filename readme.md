@@ -1,4 +1,6 @@
 # koa-tcomb-validation
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fyujinlim%2Fkoa-tcomb-validation.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fyujinlim%2Fkoa-tcomb-validation?ref=badge_shield)
+
 > tcomb validation as koa middleware
 
 ## Description
@@ -50,3 +52,7 @@ app.use(router.routes())
 
 app.listen(3000)
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fyujinlim%2Fkoa-tcomb-validation.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fyujinlim%2Fkoa-tcomb-validation?ref=badge_large)
