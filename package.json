@@ -1,22 +1,21 @@
 {
   "name": "koa-tcomb-validation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tcombjs as koa middleware",
   "main": "index.js",
-  "author": "Yu Jin",
+  "author": {
+    "name": "Yu Jin",
+    "email": "adamlyj89@gmail.com"
+  },
   "license": "MIT",
   "homepage": "https://github.com/yujinlim/koa-tcomb-validation",
   "private": false,
   "bugs": {
-    "url" : "https://github.com/yujinlim/koa-tcomb-validation/issues"
+    "url": "https://github.com/yujinlim/koa-tcomb-validation/issues"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:yujinlim/koa-tcomb-validation.git"
-  },
-  "author": {
-    "name": "Yu Jin",
-    "email": "adamlyj89@gmail.com"
   },
   "devDependencies": {
     "chai": "^4.1.2",
