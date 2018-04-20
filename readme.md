@@ -1,7 +1,6 @@
-# koa-tcomb-validation
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fyujinlim%2Fkoa-tcomb-validation.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fyujinlim%2Fkoa-tcomb-validation?ref=badge_shield)
-
+# koa-tcomb-validation [![Build Status](https://img.shields.io/travis/yujinlim/koa-tcomb-validation.svg?style=flat-square)](https://travis-ci.org/yujinlim/koa-tcomb-validation) ![npm](https://img.shields.io/npm/dt/koa-tcomb-validation.svg?style=flat-square) ![npm](https://img.shields.io/npm/v/koa-tcomb-validation.svg?style=flat-square) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fyujinlim%2Fkoa-tcomb-validation.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fyujinlim%2Fkoa-tcomb-validation?ref=badge_shield)
 > tcomb validation as koa middleware
+
 
 ## Description
 A koa middleware that checks `body/query` request matches with tcomb type, if not valid, return standard `400` http code, or can be intercepted via koa global error handling.
